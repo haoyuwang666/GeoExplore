@@ -1,0 +1,29 @@
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+*.local
+
+# Private planning notes
+GeoExplore_Project_Plan.md
+
+# Frontend build and dependency output
+**/node_modules/
+**/.pnpm-store/
+**/dist/
+**/coverage/
+
+# Backend build output
+**/target/
+*.log
+*.pid
+
+# Editors and operating systems
+.idea/
+.vscode/
+*.iml
+.classpath
+.project
+.settings/
+.DS_Store
+**/.DS_Store

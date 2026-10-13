@@ -1,0 +1,38 @@
+spring:
+  application:
+    name: geoexplore-api
+  config:
+    import:
+      - optional:file:.env[.properties]
+      - optional:file:../.env[.properties]
+  datasource:
+    url: ${DB_URL}
+    username: ${DB_USERNAME}
+    password: ${DB_PASSWORD}
+  jpa:
+    open-in-view: false
+    hibernate:
+      ddl-auto: validate
+  flyway:
+    enabled: true
+  mvc:
+    problemdetails:
+      enabled: true
+
+server:
+  port: ${SERVER_PORT:8080}
+  servlet:
+    session:
+      timeout: ${SESSION_TIMEOUT:12h}
+      cookie:
+        http-only: true
+        secure: ${SESSION_COOKIE_SECURE:false}
+        same-site: lax
+
+app:
+  cors:
+    allowed-origins: ${ALLOWED_ORIGINS:http://localhost:5173,http://127.0.0.1:5173}
+  rate-limit:
+    window-seconds: ${RATE_LIMIT_WINDOW_SECONDS:60}
+    auth-attempts: ${RATE_LIMIT_AUTH_ATTEMPTS:10}
+    community-writes: ${RATE_LIMIT_COMMUNITY_WRITES:40}

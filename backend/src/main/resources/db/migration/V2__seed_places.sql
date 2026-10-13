@@ -1,0 +1,15 @@
+INSERT INTO places
+    (name, country, country_code, flag, region, latitude, longitude, eyebrow, description, best_time, rating, tip_count, accent)
+VALUES
+    ('Machu Picchu', 'Peru', 'PE', '🇵🇪', 'Americas', -13.163100, -72.545000, 'Ancient wonder in the clouds', 'Walk among remarkable Incan stonework, high above the Sacred Valley and wrapped in Andean mist.', 'May–September', 4.9, 128, '#d85c38'),
+    ('Eiffel Tower', 'France', 'FR', '🇫🇷', 'Europe', 48.858400, 2.294500, 'Paris from a new perspective', 'Discover the story behind the iron icon and the best neighborhood viewpoints along the Seine.', 'April–June', 4.7, 314, '#345f7c'),
+    ('Mount Fuji', 'Japan', 'JP', '🇯🇵', 'Asia', 35.360600, 138.727400, 'Japan’s sacred summit', 'Explore quiet lakeside views, mountain trails, and centuries of art inspired by this volcanic peak.', 'July–September', 4.9, 196, '#c64948'),
+    ('Great Pyramid of Giza', 'Egypt', 'EG', '🇪🇬', 'Africa', 29.979200, 31.134200, 'The last ancient wonder', 'Stand beside a 4,500-year-old monument and learn how the Giza plateau shaped human history.', 'October–April', 4.8, 172, '#c48135'),
+    ('Sydney Opera House', 'Australia', 'AU', '🇦🇺', 'Oceania', -33.856800, 151.215300, 'Architecture on the harbour', 'See the famous sails from the water, the gardens, or up close on a behind-the-scenes tour.', 'September–November', 4.8, 89, '#367d83'),
+    ('Petra', 'Jordan', 'JO', '🇯🇴', 'Asia', 30.328500, 35.444400, 'A rose-red city in stone', 'Follow the narrow Siq into an extraordinary Nabataean city carved into sandstone cliffs.', 'March–May', 4.9, 143, '#b75e42'),
+    ('Grand Canyon', 'United States', 'US', '🇺🇸', 'Americas', 36.106900, -112.112900, 'Two billion years revealed', 'Find sunrise overlooks, quiet rim trails, and layers of geologic history on a monumental scale.', 'March–May', 4.9, 204, '#c65e31'),
+    ('Colosseum', 'Italy', 'IT', '🇮🇹', 'Europe', 41.890200, 12.492200, 'The arena of ancient Rome', 'Step inside the world’s most famous amphitheater and trace the spectacle and engineering of an empire.', 'April–May', 4.8, 247, '#a86f38'),
+    ('Christ the Redeemer', 'Brazil', 'BR', '🇧🇷', 'Americas', -22.951900, -43.210500, 'Rio beneath open arms', 'Ride through Tijuca Forest to sweeping views across the city, mountains, and Atlantic coast.', 'September–October', 4.8, 118, '#34715f'),
+    ('Angkor Wat', 'Cambodia', 'KH', '🇰🇭', 'Asia', 13.412500, 103.867000, 'A city of temples', 'Watch first light reach the temple towers, then explore forest paths and intricate Khmer carvings.', 'November–February', 4.9, 167, '#8b663d'),
+    ('Table Mountain', 'South Africa', 'ZA', '🇿🇦', 'Africa', -33.962800, 18.409800, 'Cape Town’s wild skyline', 'Take a trail or cableway to a vast plateau overlooking city, ocean, and unique fynbos habitat.', 'November–February', 4.8, 76, '#49745c'),
+    ('Sagrada Família', 'Spain', 'ES', '🇪🇸', 'Europe', 41.403600, 2.174400, 'Gaudí’s unfinished masterpiece', 'Experience a forest of stone, colored light, and daring geometry in the heart of Barcelona.', 'March–May', 4.8, 221, '#7b5c7d');
